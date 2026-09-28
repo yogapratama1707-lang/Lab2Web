@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek Mini: Biodata Mahasiswa</title>
+</head>
+<body>
+
+    <header>
+        <h1>Proyek Mini: Biodata Mahasiswa</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Kembali ke Beranda</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <!-- Data Profil -->
+        <section>
+            <table border="1">
+                <caption>Data Profil Mahasiswa</caption>
+                <tr>
+                    <th>Data</th>
+                    <th>Keterangan</th>
+                </tr>
+                <tr>
+                    <td>NIM</td>
+                    <td>312510256</td>
+                </tr>
+                <tr>
+                    <td>Nama</td>
+                    <td>Ramadan</td>
+                </tr>
+                <tr>
+                    <td>Program Studi</td>
+                    <td>Teknik Informatika</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Form Input Biodata -->
+        <section>
+            <h3>Form Input Biodata</h3>
+            <form>
+                <p>
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="prodi">Program Studi:</label><br>
+                    <select id="prodi" name="prodi" required>
+                        <option value="">-- Pilih --</option>
+                        <option value="ti">Teknik Informatika</option>
+                        <option value="si">Sistem Informasi</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="alamat">Alamat:</label><br>
+                    <textarea id="alamat" name="alamat" rows="4" cols="40" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Simpan Biodata</button>
+                    <button type="reset">Reset</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Teknik Informatika - Universitas Pelita Bangsa</p>
+    </footer>
+
+</body>
+</html>
